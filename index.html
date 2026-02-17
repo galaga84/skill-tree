@@ -65,7 +65,7 @@
     </style>
   </head>
 
-  <body id="inicio" class="m-0 bg-white text-gray-900">
+  <body id="inicio" class="m-0 bg-white text-gray-900 overflow-x-hidden">
     <header class="bg-white sticky top-0 z-50">
       <div class="w-full">
         <div class="flex h-16 items-center justify-between">
@@ -273,13 +273,15 @@
     <!-- HERO -->
 
    <section class="min-h-screen bg-[#FFF6EE]">
-  <div class="mx-auto w-screen max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-32">
+  <div class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-32">
+
     <div class="relative grid items-center gap-12 lg:grid-cols-2 lg:gap-28">
       <!-- halo suave detrás de la imagen -->
       <div
-        class="pointer-events-none absolute -right-24 top-1/2 h-[520px] w-[520px] -translate-y-1/2 rounded-full bg-[#FFE3D1] blur-3xl opacity-60"
-        aria-hidden="true"
-      ></div>
+  class="pointer-events-none absolute hidden lg:block -right-24 top-1/2 h-[520px] w-[520px] -translate-y-1/2 rounded-full bg-[#FFE3D1] blur-3xl opacity-60"
+  aria-hidden="true"
+></div>
+
 
       <!-- Columna izquierda: texto -->
       <div class="relative">
