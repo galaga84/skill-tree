@@ -12,10 +12,9 @@
       rel="stylesheet"
     />
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"
-/>
-
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"
+    />
 
     <style>
       :root {
@@ -72,7 +71,6 @@
 
   <body id="inicio" class="m-0 bg-white text-gray-900 overflow-x-hidden">
     <header class="sticky top-0 z-50 bg-[#ed6c3c] md:bg-white">
-
       <div class="w-full">
         <div class="flex h-16 items-center justify-between">
           <!-- IZQUIERDA: Logo + Menú -->
@@ -211,11 +209,11 @@
           <!-- DERECHA: Botón + Hamburguesa -->
           <div class="flex items-center gap-3 pr-3">
             <a
-  href="#contacto"
-  class="hidden md:inline-flex items-center rounded-full bg-[#ed6c3c] px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
->
-  ¡Contáctanos!
-</a>
+              href="#contacto"
+              class="hidden md:inline-flex items-center rounded-full bg-[#ed6c3c] px-5 py-2 text-sm font-semibold text-white transition hover:opacity-90"
+            >
+              ¡Contáctanos!
+            </a>
 
             <button
               id="navToggle"
@@ -238,16 +236,37 @@
         </div>
 
         <!-- Mobile nav -->
-        <div id="mobileNav" class="md:hidden hidden border-t border-white/20 bg-white">
-
+        <div
+          id="mobileNav"
+          class="md:hidden hidden border-t border-white/20 bg-white"
+        >
           <nav class="flex flex-col gap-1 p-3 text-sm font-medium">
-  <a href="#inicio" class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50">Inicio</a>
-  <a href="#servicios" class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50">Servicios</a>
-  <a href="#clientes" class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50">Clientes</a>
-  <a href="#quienes" class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50">Quiénes somos</a>
-  <a href="#contacto" class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50">Contacto</a>
-</nav>
-
+            <a
+              href="#inicio"
+              class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50"
+              >Inicio</a
+            >
+            <a
+              href="#servicios"
+              class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50"
+              >Servicios</a
+            >
+            <a
+              href="#clientes"
+              class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50"
+              >Clientes</a
+            >
+            <a
+              href="#quienes"
+              class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50"
+              >Quiénes somos</a
+            >
+            <a
+              href="#contacto"
+              class="rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-50"
+              >Contacto</a
+            >
+          </nav>
         </div>
       </div>
     </header>
@@ -260,53 +279,54 @@
 
     <!-- HERO -->
 
-   <section class="min-h-screen bg-[#FFF6EE]">
-  <div class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-32">
+    <section class="min-h-screen bg-[#FFF6EE]">
+      <div class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-32">
+        <div class="relative grid items-center gap-12 lg:grid-cols-2 lg:gap-28">
+          <!-- halo suave detrás de la imagen -->
+          <div
+            class="pointer-events-none absolute hidden lg:block -right-24 top-1/2 h-[520px] w-[520px] -translate-y-1/2 rounded-full bg-[#FFE3D1] blur-3xl opacity-60"
+            aria-hidden="true"
+          ></div>
 
-    <div class="relative grid items-center gap-12 lg:grid-cols-2 lg:gap-28">
-      <!-- halo suave detrás de la imagen -->
-      <div
-  class="pointer-events-none absolute hidden lg:block -right-24 top-1/2 h-[520px] w-[520px] -translate-y-1/2 rounded-full bg-[#FFE3D1] blur-3xl opacity-60"
-  aria-hidden="true"
-></div>
+          <!-- Columna izquierda: texto -->
+          <div class="relative">
+            <h1
+              class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl"
+            >
+              Skills que suben el <span class="text-[#ed6c3c]">nivel</span> de
+              las personas
+            </h1>
 
+            <p
+              class="mt-6 max-w-prose text-base leading-relaxed text-slate-600 sm:text-lg"
+            >
+              Impulsamos bienestar laboral con foco humano: prevención de
+              riesgos, convivencia, salud mental y calidad de vida. Creamos
+              rutas de aprendizaje a medida para que el cambio sea real.
+            </p>
 
-      <!-- Columna izquierda: texto -->
-      <div class="relative">
-        <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-          Skills que suben el <span class="text-[#ed6c3c]">nivel</span> de las personas
-        </h1>
+            <div class="mt-8 flex flex-wrap items-center gap-3">
+              <a
+                href="#servicios"
+                class="inline-flex items-center justify-center rounded-full bg-[#ed6c3c] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
+              >
+                Ver servicios
+              </a>
+            </div>
+          </div>
 
-        <p class="mt-6 max-w-prose text-base leading-relaxed text-slate-600 sm:text-lg">
-          Integramos formación presencial, e-learning y experiencias outdoor
-          para desarrollar habilidades con impacto. Diseñamos rutas de
-          aprendizaje alineadas a tus objetivos y medimos progreso para
-          asegurar resultados.
-        </p>
-
-        <div class="mt-8 flex flex-wrap items-center gap-3">
-          <a
-            href="#servicios"
-            class="inline-flex items-center justify-center rounded-full bg-[#ed6c3c] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
-          >
-            Ver servicios
-          </a>
+          <!-- Columna derecha: imagen -->
+          <div class="relative flex justify-center lg:justify-end">
+            <img
+              src="./assets/img/cohete.png"
+              alt="Ilustración de una persona sobre un cohete"
+              class="w-full max-w-xl object-contain hero-pulse"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
-
-      <!-- Columna derecha: imagen -->
-      <div class="relative flex justify-center lg:justify-end">
-        <img
-          src="./assets/img/cohete.png"
-          alt="Ilustración de una persona sobre un cohete"
-          class="w-full max-w-xl object-contain hero-pulse"
-          loading="lazy"
-        />
-      </div>
-    </div>
-  </div>
-</section>
-
+    </section>
 
     <!-- SEPARADOR-->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-10">
@@ -336,7 +356,6 @@
 
           <div
             class="relative flex h-full transform items-end border-2 border-black bg-[#F8FAFC] transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
-
           >
             <div
               class="px-4 pb-4 transition-opacity group-hover:absolute group-hover:opacity-0 sm:px-6 sm:pb-4 lg:px-8 lg:pb-8"
@@ -566,7 +585,9 @@
                     class="translate-y-6 transform opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
                   >
                     <p class="text-sm text-white">
-                      Curso para aprender a prevenir incendios y usar extintores con seguridad: contenidos claros, actividades interactivas y tips aplicables para actuar a tiempo y con confianza.
+                      Curso para aprender a prevenir incendios y usar extintores
+                      con seguridad: contenidos claros, actividades interactivas
+                      y tips aplicables para actuar a tiempo y con confianza.
                     </p>
                   </div>
                 </div>
@@ -809,106 +830,181 @@
     </div>
 
     <!-- QUIÉNES SOMOS (con acordeones) -->
-<section id="quienes" class="bg-white">
-  <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-    <div class="grid gap-10 lg:grid-cols-2 lg:items-start">
-      <!-- Texto izquierda -->
-      <div class="max-w-xl">
-        <h2 class="text-2xl font-bold text-gray-900 sm:text-3xl">
-          Quiénes somos 
-        </h2>
-        <p class="mt-3 text-gray-600">
-          Diseñamos experiencias de aprendizaje que suben el nivel: formación presencial,
-          e-learning y outdoor. Con foco en lo humano, lo práctico y el impacto real.
-        </p>
+    <section id="quienes" class="bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-2 lg:items-start">
+          <!-- Texto izquierda -->
+          <div class="max-w-xl">
+            <h2 class="text-2xl font-bold text-gray-900 sm:text-3xl">
+              Quiénes somos
+            </h2>
+            <p class="mt-3 text-gray-600">
+              Diseñamos experiencias de aprendizaje que suben el nivel:
+              formación presencial, e-learning y outdoor. Con foco en lo humano,
+              lo práctico y el impacto real.
+            </p>
+          </div>
+
+          <!-- Acordeones derecha -->
+          <div class="space-y-2">
+            <!-- 1) Quiénes somos -->
+            <details class="group [&_summary::-webkit-details-marker]:hidden">
+              <summary
+                class="flex cursor-pointer items-center justify-between gap-4 rounded-lg border border-gray-200 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-gray-50"
+              >
+                <span class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#ed6c3c"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    ></path>
+                  </svg>
+                  Nuestra identidad
+                </span>
+
+                <svg
+                  class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="#ed6c3c"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </summary>
+
+              <div class="p-4">
+                <p class="text-gray-700">
+                  Somos un equipo con amplia experiencia en múltiples sectores y
+                  contextos, desde instituciones públicas hasta organizaciones
+                  privadas. Conocemos la operación, los tiempos y los desafíos
+                  de cada realidad, por eso diseñamos aprendizaje que calza con
+                  el trabajo diario y genera cambios medibles en bienestar,
+                  prevención y colaboración.
+                </p>
+              </div>
+            </details>
+
+            <!-- 2) En qué creemos -->
+            <details class="group [&_summary::-webkit-details-marker]:hidden">
+              <summary
+                class="flex cursor-pointer items-center justify-between gap-4 rounded-lg border border-gray-200 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-gray-50"
+              >
+                <span class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#ed6c3c"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 6v6l4 2"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    ></path>
+                  </svg>
+                  En qué creemos
+                </span>
+
+                <svg
+                  class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="#ed6c3c"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </summary>
+
+              <div class="p-4">
+                <p class="text-gray-700">
+                  Creemos en aprender haciendo: interacción, conversación y
+                  práctica guiada. Y en medir lo importante: progreso,
+                  transferencia al trabajo y resultados que no se quedan solo en
+                  “qué bonito quedó”.
+                </p>
+              </div>
+            </details>
+
+            <!-- 3) Cómo trabajamos -->
+            <details class="group [&_summary::-webkit-details-marker]:hidden">
+              <summary
+                class="flex cursor-pointer items-center justify-between gap-4 rounded-lg border border-gray-200 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-gray-50"
+              >
+                <span class="flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#ed6c3c"
+                    class="size-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4 7h16M4 12h16M4 17h10"
+                    ></path>
+                  </svg>
+                  Cómo trabajamos
+                </span>
+
+                <svg
+                  class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="#ed6c3c"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </summary>
+
+              <div class="p-4">
+                <p class="text-gray-700">
+                  Partimos por entender tu contexto, diseñamos una ruta de
+                  aprendizaje a medida, ejecutamos con una experiencia cuidada y
+                  cerramos con medición simple y clara. Todo con comunicación
+                  directa (sin humo).
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <!-- Acordeones derecha -->
-      <div class="space-y-2">
-        <!-- 1) Quiénes somos -->
-        <details class="group [&_summary::-webkit-details-marker]:hidden">
-          <summary
-            class="flex cursor-pointer items-center justify-between gap-4 rounded-lg border border-gray-200 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-gray-50"
-          >
-            <span class="flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ed6c3c" class="size-5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
-              </svg>
-              Nuestra identidad
-            </span>
-
-            <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#ed6c3c">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </summary>
-
-          <div class="p-4">
-            <p class="text-gray-700">
-              Somos un equipo que diseña aprendizaje con intención: experiencias claras, entretenidas
-              y alineadas a objetivos reales. Menos “curso por cumplir”, más habilidades que se notan
-              en el día a día.
-            </p>
-          </div>
-        </details>
-
-        <!-- 2) En qué creemos -->
-        <details class="group [&_summary::-webkit-details-marker]:hidden">
-          <summary
-            class="flex cursor-pointer items-center justify-between gap-4 rounded-lg border border-gray-200 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-gray-50"
-          >
-            <span class="flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ed6c3c" class="size-5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2"></path>
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
-              </svg>
-              En qué creemos
-            </span>
-
-            <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#ed6c3c">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </summary>
-
-          <div class="p-4">
-            <p class="text-gray-700">
-              Creemos en aprender haciendo: interacción, conversación y práctica guiada.
-              Y en medir lo importante: progreso, transferencia al trabajo y resultados
-              que no se quedan solo en “qué bonito quedó”.
-            </p>
-          </div>
-        </details>
-
-        <!-- 3) Cómo trabajamos -->
-        <details class="group [&_summary::-webkit-details-marker]:hidden">
-          <summary
-            class="flex cursor-pointer items-center justify-between gap-4 rounded-lg border border-gray-200 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-gray-50"
-          >
-            <span class="flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ed6c3c" class="size-5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h10"></path>
-              </svg>
-              Cómo trabajamos
-            </span>
-
-            <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#ed6c3c">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </summary>
-
-          <div class="p-4">
-            <p class="text-gray-700">
-              Partimos por entender tu contexto, diseñamos una ruta de aprendizaje a medida,
-              ejecutamos con una experiencia cuidada y cerramos con medición simple y clara.
-              Todo con comunicación directa (sin humo).
-            </p>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</section>
-
-    
     <!-- SEPARADOR-->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-10">
       <hr class="border-t border-gray-300" />
@@ -916,70 +1012,64 @@
 
     <!-- CONTACTO -->
 
-<section id="contacto" class="bg-[#F8FAFC]">
-  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-    <div class="mx-auto max-w-lg text-center">
-      <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
-        ¿Lo conversamos?
-      </h2>
+    <section id="contacto" class="bg-[#F8FAFC]">
+      <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+        <div class="mx-auto max-w-lg text-center">
+          <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+            ¿Lo conversamos?
+          </h2>
 
-      <p class="mt-4 text-gray-600">
-        Déjanos tu correo y te contactamos para armar una propuesta a tu medida.
-      </p>
-    </div>
+          <p class="mt-4 text-gray-600">
+            Déjanos tu correo y te contactamos para armar una propuesta a tu
+            medida.
+          </p>
+        </div>
 
-    <div class="mx-auto mt-8 max-w-md">
-      <!-- FORM: cambia solo el action si algún día cambias de Formspree -->
-      <form
-        action="https://formspree.io/f/xwvnbdvd"
-        method="POST"
-        class="flex flex-col items-center gap-4"
-      >
-        <label for="email" class="sr-only">Email</label>
+        <div class="mx-auto mt-8 max-w-md">
+          <!-- FORM: cambia solo el action si algún día cambias de Formspree -->
+          <form
+            action="https://formspree.io/f/xwvnbdvd"
+            method="POST"
+            class="flex flex-col items-center gap-4"
+          >
+            <label for="email" class="sr-only">Email</label>
 
-        <input
-          id="email"
-          name="email"
-          type="email"
-          required
-          placeholder="Tu e-mail"
-          class="w-full rounded-xl border border-gray-200 bg-white p-4 text-gray-700 shadow-sm transition focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
-        />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              placeholder="Tu e-mail"
+              class="w-full rounded-xl border border-gray-200 bg-white p-4 text-gray-700 shadow-sm transition focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
+            />
 
-        <button
-          type="submit"
-          class="w-full inline-flex items-center justify-center rounded-full bg-[#ed6c3c] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-[#d85f34] focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
-        >
-          Enviar
-        </button>
-      </form>
+            <button
+              type="submit"
+              class="w-full inline-flex items-center justify-center rounded-full bg-[#ed6c3c] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-[#d85f34] focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
+            >
+              Enviar
+            </button>
+          </form>
 
-      <!-- Texto + WhatsApp -->
-      <p class="mt-6 text-center text-sm text-gray-600">
-        O si prefieres, también podemos hablar por WhatsApp 🙂
-      </p>
+          <!-- Texto + WhatsApp -->
+          <p class="mt-6 text-center text-sm text-gray-600">
+            O si prefieres, también podemos hablar por WhatsApp 🙂
+          </p>
 
-      <div class="mt-3 flex justify-center">
-        <a
-          href="https://wa.me/56963036456?text=Hola%20SkillTree%2C%20quisiera%20cotizar%20una%20capacitaci%C3%B3n.%20%C2%BFMe%20pueden%20orientar%3F"
-          target="_blank"
-          rel="noopener"
-          class="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-[#25D366]/40"
-        >
-          <i class="fa-brands fa-whatsapp text-[18px]"></i>
-          Hablar por WhatsApp
-        </a>
+          <div class="mt-3 flex justify-center">
+            <a
+              href="https://wa.me/56963036456?text=Hola%20SkillTree%2C%20quisiera%20cotizar%20una%20capacitaci%C3%B3n.%20%C2%BFMe%20pueden%20orientar%3F"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-[#25D366]/40"
+            >
+              <i class="fa-brands fa-whatsapp text-[18px]"></i>
+              Hablar por WhatsApp
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-    
+    </section>
 
     <footer class="bg-[#ed6c3c] text-white">
       <div
@@ -992,19 +1082,18 @@
           >
             <span class="sr-only">Volver al incio</span>
 
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class="size-5 text-white"
-  viewBox="0 0 20 20"
-  fill="currentColor"
->
-  <path
-    fill-rule="evenodd"
-    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-    clip-rule="evenodd"
-  ></path>
-</svg>
-
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="size-5 text-white"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
           </a>
         </div>
 
@@ -1019,7 +1108,7 @@
             <p
               class="mx-auto mt-6 max-w-md text-center leading-relaxed lg:text-left"
             >
-              🤘 Menos powerpoint eterno, más aprendizaje que se nota. 
+              🤘 Menos powerpoint eterno, más aprendizaje que se nota.
             </p>
           </div>
 
@@ -1052,23 +1141,15 @@
                 Quiénes somos
               </a>
             </li>
-
-            
           </ul>
         </div>
 
-        <p
-          class="mt-12 text-center text-sm lg:text-right"
-        >
+        <p class="mt-12 text-center text-sm lg:text-right">
           Copyright © 2026. Todos los derechos reservados.
         </p>
       </div>
     </footer>
-    
 
     <script src="script.js"></script>
- 
-
-
   </body>
 </html>
