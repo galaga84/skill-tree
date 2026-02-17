@@ -109,6 +109,3 @@ document.addEventListener("DOMContentLoaded", () => {
     track.scrollBy({ left: getStep(), behavior: "smooth" });
   });
 });
-
-
-

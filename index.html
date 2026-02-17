@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"
+/>
+
 
     <style>
       :root {
@@ -911,42 +916,65 @@
 
     <!-- CONTACTO -->
 
-    <section id="contacto" class="bg-[#F8FAFC]">
-      <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-        <div class="mx-auto max-w-lg text-center">
-          <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
-            ¿Lo conversamos?
-          </h2>
+<section id="contacto" class="bg-[#F8FAFC]">
+  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+        ¿Lo conversamos?
+      </h2>
 
-          <p class="hidden text-gray-500 sm:mt-4 sm:block">
-            Déjanos tu correo y te contactamos para armar una propuesta a tu
-            medida.
-          </p>
+      <p class="mt-4 text-gray-500">
+        Déjanos tu correo y te contactamos para armar una propuesta a tu medida.
+      </p>
+    </div>
+
+    <div class="mx-auto mt-10 max-w-xl">
+      <!-- CONTENEDOR centrado -->
+      <div class="mx-auto flex max-w-md flex-col items-center gap-5">
+        <!-- INPUT -->
+        <div class="w-full">
+          <label for="email" class="sr-only">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Tu e-mail"
+            class="w-full rounded-md border border-gray-200 bg-white p-3 text-gray-700 shadow-sm transition focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
+          />
         </div>
 
-        <div class="mx-auto mt-8 max-w-xl">
-          <form action="#" class="flex flex-col gap-3 sm:flex-row sm:gap-4">
+        <!-- BOTÓN ENVIAR -->
+        <button
+          type="submit"
+          class="w-full inline-flex items-center justify-center rounded-full bg-[#ed6c3c] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-[#d85f34] focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
+        >
+          Enviar
+        </button>
 
-            <div class="sm:flex-1">
-              <label for="email" class="sr-only">Email</label>
+        <!-- TEXTO -->
+        <p class="mt-4 text-gray-500">
+          O si prefieres, también podemos hablar por WhatsApp 😄
+        </p>
 
-              <input
-                type="email"
-                placeholder="Tu e-mail"
-                class="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-xs transition focus:border-white focus:ring-2 focus:ring-yellow-400 focus:outline-hidden"
-              />
-            </div>
+        <!-- BOTÓN WHATSAPP -->
+        <a
+  href="https://wa.me/569XXXXXXXX?text=Hola%20SkillTree%2C%20quiero%20cotizar%20una%20capacitaci%C3%B3n."
+  target="_blank"
+  rel="noopener"
+  class="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-[#25D366]/40"
+>
+  <i class="fa-brands fa-whatsapp text-[18px]"></i>
+  Hablar por WhatsApp
+</a>
 
-            <button
-              type="submit"
-              class="inline-flex items-center justify-center rounded-full bg-[#ed6c3c] px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-[#d85f34] focus:outline-none focus:ring-2 focus:ring-[#ed6c3c]/40"
-            >
-              Enviar
-            </button>
-          </form>
-        </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+
+
+
+
     
 
     <footer class="bg-[#ed6c3c] text-white">
@@ -987,7 +1015,7 @@
             <p
               class="mx-auto mt-6 max-w-md text-center leading-relaxed lg:text-left"
             >
-              Menos powerpoint eterno, más aprendizaje que se nota. Si quieres algo a tu medida, conversemos
+              🤘 Menos powerpoint eterno, más aprendizaje que se nota. 
             </p>
           </div>
 
@@ -1032,7 +1060,11 @@
         </p>
       </div>
     </footer>
+    
 
     <script src="script.js"></script>
+ 
+
+
   </body>
 </html>
